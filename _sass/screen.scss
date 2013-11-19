@@ -1,0 +1,50 @@
+// Reset no longer needed if you're using Bootstrap. But add it back if you don't want to use Bootstrap.
+// @import "reset";
+
+
+
+body{
+
+}
+
+img {
+    width: 100%;
+}
+
+.title {
+    font-size: 60px;
+}
+
+@media screen and (max-width: 600px) {
+    .info {
+        width: 250px;
+    }
+
+    .date {
+        font-size: 45px;
+    }
+
+    .place {
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+
+    .description {
+        font-size: 20px;
+    }
+
+    .section2words, .section4words, .section6words {
+        float: right;
+    }
+
+    .linkwords, .sadescription {
+        clear: both;
+    }
+
+    .linkwords {
+        background-image: url("http://static.tumblr.com/qjc1vje/Iizlkunbp/link-background.png")
+        width: 100%;
+
+    }
+
+}
